@@ -1,0 +1,7 @@
+send("C:\Users\Ganesh yadav\Downloads\KOTLIN.pdf")
+sleep(500)
+send("{TAB}")
+sleep(500)
+send("{TAB}")
+sleep(500)
+send("{ENTER}")

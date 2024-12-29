@@ -1,0 +1,7 @@
+send("C:\Users\Ganesh yadav\Downloads\GSN_Interview_Questions.docx")
+sleep(500)
+send("{TAB}")
+sleep(500)
+send("{TAB}")
+sleep(500)
+send("{ENTER}")

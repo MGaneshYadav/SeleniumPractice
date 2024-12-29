@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <!--  <groups>
+  <run>
+  <include name="smoke"></include>
+  <include name="functional"></include>
+  </run>
+  </groups>
+  -->
+   <groups>
+  <run>
+  <exclude name="smoke"></exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="testNG.LearningTestNG"/>
+      <class name="testNG.ProductAddToCartTest"/>
+      <class name="testNG.ConfigurationAnnotation"/>
+      <class name="testNG.LoginTest"/>
+      <class name="testNG.RegisterTest"/>
+      <class name="testNG.LearningTestNGAttributes"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
